@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Shaping Art Fontello";
+    src: url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.eot?71123305');
+    src: url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.eot?71123305#iefix') format('embedded-opentype'),
+             url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.woff?71123305') format('woff'),
+             url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.ttf?71123305') format('truetype'),
+             url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.svg?71123305#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'fontello';
+        src: url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/fontello/fontello.svg?71123305#fontello') format('svg');
+    }
+}
+*/
+
+/* Catchall baseclass */
+.shpart-fo {
+    font-family: "Shaping Art Fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+ 
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+ 
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+ 
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+ 
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+ 
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+ 
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ 
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+ /* product icons */
+.shpart-fo-datacenters:before { content: '\e800'; } /* '' */
+.shpart-fo-zcolo:before { content: '\e800'; } /* '' */
+.shpart-fo-z-colo:before { content: '\e800'; } /* '' */
+.shpart-fo-ethernet:before { content: '\e801'; } /* '' */
+.shpart-fo-wavelengths:before { content: '\e802'; } /* '' */
+.shpart-fo-cloud:before { content: '\e803'; } /* '' */
+.shpart-fo-connect-to-cloud:before { content: '\e803'; } /* '' */
+.shpart-fo-ip-services:before { content: '\e804'; } /* '' */
+.shpart-fo-dark-fiber:before { content: '\e805'; } /* '' */
+.shpart-fo-mobile:before { content: '\e806'; } /* '' */
+.shpart-fo-mobile-infra:before { content: '\e806'; } /* '' */
+.shpart-fo-live-video:before { content: '\e807'; } /* '' */
+.shpart-fo-sonet:before { content: '\e808'; } /* '' */
+.shpart-fo-private-line:before { content: '\e808'; } /* '' */
+.shpart-fo-flex-connect:before { content: '\e819'; } /* '' */
+
+/* network icons */
+.shpart-fo-address:before { content: '\e809'; } /* '' */
+.shpart-fo-cloud-destinations:before { content: '\e80a'; } /* '' */
+.shpart-fo-on-zayo-network:before { content: '\e80b'; } /* '' */
+.shpart-fo-data-centers:before { content: '\e80c'; } /* '' */
+.shpart-fo-exchanges:before { content: '\e80d'; } /* '' */
+.shpart-fo-saas:before { content: '\e80e'; } /* '' */
+.shpart-fo-build-in-progress:before { content: '\e80f'; } /* '' */
+.shpart-fo-not-on-zayo-network:before { content: '\e810'; } /* '' */
+.shpart-fo-global-reach:before { content: '\e811'; } /* '' */
+.shpart-fo-extended-reach:before { content: '\e812'; } /* '' */
+.shpart-fo-build-in-progress-b:before { content: '\e813'; } /* '' */
+.shpart-fo-on-zayo-network-b:before { content: '\e814'; } /* '' */
+.shpart-fo-not-on-zayo-network-b:before { content: '\e815'; } /* '' */
+.shpart-fo-companies:before { content: '\e816'; } /* '' */
+.shpart-fo-global-reach-b:before { content: '\e817'; } /* '' */
+.shpart-fo-extended-reach-b:before { content: '\e818'; } /* '' */
