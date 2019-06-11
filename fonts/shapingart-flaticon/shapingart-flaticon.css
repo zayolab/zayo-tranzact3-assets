@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Shaping Art Flaticon";
-    src: url("https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/flaticon/flaticon.eot");
-    src: url("https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/flaticon/flaticon.eot#iefix") format("embedded-opentype"),
-    url("https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/flaticon/flaticon.woff") format("woff"),
-    url("https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/flaticon/flaticon.ttf") format("truetype"),
-    url("https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/flaticon/flaticon.svg") format("svg");
+    src: url("./shapingart-flaticon.eot");
+    src: url("./shapingart-flaticon.eot#iefix") format("embedded-opentype"),
+    url("./shapingart-flaticon.woff") format("woff"),
+    url("./shapingart-flaticon.ttf") format("truetype"),
+    url("./shapingart-flaticon.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }

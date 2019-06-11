@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Shaping Art Fontello";
-    src: url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.eot?71123305');
-    src: url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.eot?71123305#iefix') format('embedded-opentype'),
-             url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.woff?71123305') format('woff'),
-             url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.ttf?71123305') format('truetype'),
-             url('https://cdn.jsdelivr.net/gh/dacio/zayo-tranzact3-assets/fonts/shapingart/fontello/fontello.svg?71123305#fontello') format('svg');
+    src: url('./shapingart-fontello.eot?71123305');
+    src: url('./shapingart-fontello.eot?71123305#iefix') format('embedded-opentype'),
+             url('./shapingart-fontello.woff?71123305') format('woff'),
+             url('./shapingart-fontello.ttf?71123305') format('truetype'),
+             url('./shapingart-fontello.svg?71123305#fontello') format('svg');
     font-weight: normal;
     font-style: normal;
 }
